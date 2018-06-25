@@ -11,7 +11,6 @@ public class Problem494 {
 
     private void dfs(int cur, int[] nums, int sum, int S) {
         if (sum == S && cur == nums.length) counter += 1;
-
         if (cur >= nums.length) return;
         dfs(cur + 1,nums,sum + nums[cur],S);
         dfs(cur + 1,nums,sum + nums[cur] * (-1),S);
