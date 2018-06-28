@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c837cd1-038a-480e-9449-604b55a18dda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Problem371.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem392.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem377.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem374.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Problem374.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Problem841.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem841.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Problem491.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem491.java">
           <provider selected="true" editor-type-id="text-editor" />
@@ -84,14 +73,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem392.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem392.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem392.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem377.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problem377.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -128,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/Problem374.java" />
         <option value="$PROJECT_DIR$/src/Problem371.java" />
         <option value="$PROJECT_DIR$/src/Problem392.java" />
+        <option value="$PROJECT_DIR$/src/Problem377.java" />
       </list>
     </option>
   </component>
@@ -182,17 +181,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem392">
-    <configuration name="Problem318" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem318" />
-      <module name="leetcode" />
-    </configuration>
+  <component name="RunManager" selected="Application.Problem377">
     <configuration name="Problem371" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem371" />
       <module name="leetcode" />
     </configuration>
     <configuration name="Problem374" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem374" />
+      <module name="leetcode" />
+    </configuration>
+    <configuration name="Problem377" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem377" />
       <module name="leetcode" />
     </configuration>
     <configuration name="Problem383" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -204,19 +203,19 @@
       <module name="leetcode" />
     </configuration>
     <list>
-      <item itemvalue="Application.Problem318" />
       <item itemvalue="Application.Problem383" />
       <item itemvalue="Application.Problem374" />
       <item itemvalue="Application.Problem371" />
       <item itemvalue="Application.Problem392" />
+      <item itemvalue="Application.Problem377" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem377" />
         <item itemvalue="Application.Problem392" />
         <item itemvalue="Application.Problem371" />
         <item itemvalue="Application.Problem374" />
         <item itemvalue="Application.Problem383" />
-        <item itemvalue="Application.Problem318" />
       </list>
     </recent_temporary>
   </component>
@@ -244,15 +243,15 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32906976" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32867134" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3372093" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33682984" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33957845" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33916083" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2728938" />
@@ -260,7 +259,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997669" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.28787878" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -300,14 +299,32 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Problem377.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>((HashMap)map).entrySet().toArray()[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((HashMap)map).entrySet().toArray()[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.HashMap</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Problem491.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem200.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -546,11 +563,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem392.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem377.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
