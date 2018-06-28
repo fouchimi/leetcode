@@ -30,8 +30,6 @@ public class Problem345 {
             }
         }
         if(firstSb.length() + secondSb.length() < s.length()) firstSb.append(s.charAt(i));
-        if(firstSb.length() == 0 && secondSb.length() < s.length()) firstSb.append(s.charAt(i));
-        else if(firstSb.length() < s.length() && secondSb.length() == 0) secondSb.insert(0, s.charAt(j));
         return firstSb.append(secondSb.toString()).toString();
     }
 
