@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c837cd1-038a-480e-9449-604b55a18dda" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Problem300.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -91,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem345.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem345.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem345.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
+            <state relative-caret-position="117">
               <caret line="31" column="90" selection-start-line="31" selection-start-column="90" selection-end-line="31" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,11 +104,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem318.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem318.java">
+      <file leaf-file-name="Problem300.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problem300.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            <state relative-caret-position="196">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,10 +142,11 @@
         <option value="$PROJECT_DIR$/src/Problem377.java" />
         <option value="$PROJECT_DIR$/src/Problem387.java" />
         <option value="$PROJECT_DIR$/src/Problem345.java" />
+        <option value="$PROJECT_DIR$/src/Problem300.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="955" />
@@ -192,13 +197,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem345">
-    <configuration name="Problem345" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem345" />
+  <component name="RunManager" selected="Application.Problem300">
+    <configuration name="Problem300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem300" />
       <module name="leetcode" />
     </configuration>
-    <configuration name="Problem371" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem371" />
+    <configuration name="Problem345" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem345" />
       <module name="leetcode" />
     </configuration>
     <configuration name="Problem377" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -214,19 +219,19 @@
       <module name="leetcode" />
     </configuration>
     <list>
-      <item itemvalue="Application.Problem371" />
       <item itemvalue="Application.Problem392" />
       <item itemvalue="Application.Problem377" />
       <item itemvalue="Application.Problem387" />
       <item itemvalue="Application.Problem345" />
+      <item itemvalue="Application.Problem300" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem300" />
         <item itemvalue="Application.Problem345" />
         <item itemvalue="Application.Problem387" />
         <item itemvalue="Application.Problem377" />
         <item itemvalue="Application.Problem392" />
-        <item itemvalue="Application.Problem371" />
       </list>
     </recent_temporary>
   </component>
@@ -249,10 +254,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="955" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="955" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32867134" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -260,7 +266,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33682984" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32983682" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.7902098" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26689976" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2759463" />
@@ -268,7 +274,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28787878" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4020979" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -276,7 +282,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32867134" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -315,11 +320,29 @@
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Problem300.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="14" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="stack.peek()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>stack.peek()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
         <expression-string>((HashMap)map).entrySet().toArray()[0]</expression-string>
@@ -335,13 +358,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Problem726.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem839.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -594,8 +610,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem345.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="117">
           <caret line="31" column="90" selection-start-line="31" selection-start-column="90" selection-end-line="31" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem300.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
