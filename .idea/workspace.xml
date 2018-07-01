@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c837cd1-038a-480e-9449-604b55a18dda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Problem349.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem350.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Problem371.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem371.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Problem392.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem392.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,11 +103,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem349.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem349.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem349.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="375">
+              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="29" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem350.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problem350.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -152,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/Problem204.java" />
         <option value="$PROJECT_DIR$/src/Problem150.java" />
         <option value="$PROJECT_DIR$/src/Problem349.java" />
+        <option value="$PROJECT_DIR$/src/Problem350.java" />
       </list>
     </option>
   </component>
@@ -206,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem349">
+  <component name="RunManager" selected="Application.Problem350">
     <configuration name="Problem150" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem150" />
       <module name="leetcode" />
@@ -219,28 +220,28 @@
       <option name="MAIN_CLASS_NAME" value="Problem299" />
       <module name="leetcode" />
     </configuration>
-    <configuration name="Problem300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem300" />
-      <module name="leetcode" />
-    </configuration>
     <configuration name="Problem349" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem349" />
       <module name="leetcode" />
     </configuration>
+    <configuration name="Problem350" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem350" />
+      <module name="leetcode" />
+    </configuration>
     <list>
-      <item itemvalue="Application.Problem300" />
       <item itemvalue="Application.Problem299" />
       <item itemvalue="Application.Problem204" />
       <item itemvalue="Application.Problem150" />
       <item itemvalue="Application.Problem349" />
+      <item itemvalue="Application.Problem350" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem350" />
         <item itemvalue="Application.Problem349" />
         <item itemvalue="Application.Problem150" />
         <item itemvalue="Application.Problem299" />
         <item itemvalue="Application.Problem204" />
-        <item itemvalue="Application.Problem300" />
       </list>
     </recent_temporary>
   </component>
@@ -274,12 +275,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33529413" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33529413" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32983682" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2682353" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2682353" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2759463" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2759463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -394,13 +395,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Problem122.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem124.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -672,8 +666,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem349.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="375">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="29" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem350.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
