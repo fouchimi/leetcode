@@ -13,26 +13,21 @@ public class Problem863 {
         }else {
             if(root == target) getNodesUtil(root, K, list);
             else {
-                int N = K;
                 Stack<TreeNode> stack = new Stack<>();
                 findParentsNode(root, target, stack);
+                int N = stack.size()-1;
                 while (!stack.isEmpty()) {
                     TreeNode parentNode = stack.get(0);
-                    N--;
                     if(parentNode != target) {
-                        if(K == stack.size()-1) list.add(parentNode.val);
+                        if(K == N) list.add(parentNode.val);
                         else if(K > N){
-                            if((parentNode.left == target || parentNode.right == target) && K == 1) list.add(parentNode.val);
-                            else if(K == 1) {
-                                if(stack.contains(parentNode.left) && parentNode.right != null) list.add(parentNode.right.val);
-                                else if(stack.contains(parentNode.right) && parentNode.left != null) list.add(parentNode.left.val);
-                            }
-                            else if(stack.contains(parentNode.left)) getNodesUtil(parentNode.right, K-N-1, list);
+                            if(stack.contains(parentNode.left)) getNodesUtil(parentNode.right, K-N-1, list);
                             else if(stack.contains(parentNode.right)) getNodesUtil(parentNode.left, K-N-1, list);
                         }
 
                     }else getNodesUtil(parentNode, K, list);
                     stack.remove(0);
+                    N--;
                 }
             }
         }
