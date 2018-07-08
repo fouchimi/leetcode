@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c837cd1-038a-480e-9449-604b55a18dda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Problem350.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem121.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem122.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem124.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem129.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem130$UnionFind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem130.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem150.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem200.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem202.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem204.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem299.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem300.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem318.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem344.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem345.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem349.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem350.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem371.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem374.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem377.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem383.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem387.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem392.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem491.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem494.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem695.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem726.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem839.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Problem841.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem399.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem399.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,108 +44,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Problem392.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem392.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem377.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem377.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem387.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem387.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem345.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem345.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="31" column="90" selection-start-line="31" selection-start-column="90" selection-end-line="31" selection-end-column="90" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem300.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem300.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="27" column="71" lean-forward="true" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem299.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem299.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="79" lean-forward="true" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem204.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem204.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem150.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem150.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem349.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem349.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="29" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problem350.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Problem350.java">
+      <file leaf-file-name="Problem122.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Problem122.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem399.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problem399.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -153,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/Problem150.java" />
         <option value="$PROJECT_DIR$/src/Problem349.java" />
         <option value="$PROJECT_DIR$/src/Problem350.java" />
+        <option value="$PROJECT_DIR$/src/Problem399.java" />
       </list>
     </option>
   </component>
@@ -169,9 +111,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,6 +129,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -264,7 +206,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="951" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -275,17 +217,17 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33529413" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33489463" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32983682" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2682353" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30796254" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2759463" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2789988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33882353" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41100702" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="2" />
@@ -395,13 +337,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Problem124.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem129.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -563,8 +498,8 @@
     <entry file="file://$PROJECT_DIR$/src/Problem365.java" />
     <entry file="file://$PROJECT_DIR$/src/Problem122.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -675,6 +610,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem399.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
         </state>
       </provider>
     </entry>
