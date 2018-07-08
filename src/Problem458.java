@@ -2,7 +2,7 @@ public class Problem458 {
 
     public int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
 
-        int factor = minutesToDie / minutesToTest;
+        int factor = minutesToTest / minutesToDie;
 
         return buckets / factor;
     }
