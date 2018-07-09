@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c837cd1-038a-480e-9449-604b55a18dda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Problem496.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem844.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,11 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem496.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem496.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem496.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="315">
+              <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem844.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problem844.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -65,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/Problem733.java" />
         <option value="$PROJECT_DIR$/src/Problem414.java" />
         <option value="$PROJECT_DIR$/src/Problem496.java" />
+        <option value="$PROJECT_DIR$/src/Problem844.java" />
       </list>
     </option>
   </component>
@@ -120,11 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem496">
-    <configuration name="Problem402" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem402" />
-      <module name="leetcode" />
-    </configuration>
+  <component name="RunManager" selected="Application.Problem844">
     <configuration name="Problem414" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem414" />
       <module name="leetcode" />
@@ -137,24 +143,28 @@
       <option name="MAIN_CLASS_NAME" value="Problem733" />
       <module name="leetcode" />
     </configuration>
+    <configuration name="Problem844" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem844" />
+      <module name="leetcode" />
+    </configuration>
     <configuration name="Problem863" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem863" />
       <module name="leetcode" />
     </configuration>
     <list>
-      <item itemvalue="Application.Problem402" />
       <item itemvalue="Application.Problem863" />
       <item itemvalue="Application.Problem733" />
       <item itemvalue="Application.Problem414" />
       <item itemvalue="Application.Problem496" />
+      <item itemvalue="Application.Problem844" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem844" />
         <item itemvalue="Application.Problem496" />
         <item itemvalue="Application.Problem414" />
         <item itemvalue="Application.Problem733" />
         <item itemvalue="Application.Problem863" />
-        <item itemvalue="Application.Problem402" />
       </list>
     </recent_temporary>
   </component>
@@ -246,13 +256,13 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem496.java</url>
-          <line>31</line>
+          <url>file://$PROJECT_DIR$/src/Problem844.java</url>
+          <line>27</line>
           <properties />
-          <option name="timeStamp" value="20" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -275,9 +285,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Problem121.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem494.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -554,8 +561,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem496.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        <state relative-caret-position="315">
+          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem844.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
         </state>
       </provider>
     </entry>
