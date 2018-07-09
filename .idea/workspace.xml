@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c837cd1-038a-480e-9449-604b55a18dda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem733.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem414.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,11 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem733.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem733.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem733.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="488">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem414.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problem414.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -85,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/Problem863.java" />
         <option value="$PROJECT_DIR$/src/Problem733_branch.java" />
         <option value="$PROJECT_DIR$/src/Problem733.java" />
+        <option value="$PROJECT_DIR$/src/Problem414.java" />
       </list>
     </option>
   </component>
@@ -140,13 +149,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem733">
-    <configuration name="Problem350" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem350" />
-      <module name="leetcode" />
-    </configuration>
+  <component name="RunManager" selected="Application.Problem414">
     <configuration name="Problem402" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem402" />
+      <module name="leetcode" />
+    </configuration>
+    <configuration name="Problem414" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem414" />
       <module name="leetcode" />
     </configuration>
     <configuration name="Problem458" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -162,19 +171,19 @@
       <module name="leetcode" />
     </configuration>
     <list>
-      <item itemvalue="Application.Problem350" />
       <item itemvalue="Application.Problem458" />
       <item itemvalue="Application.Problem402" />
       <item itemvalue="Application.Problem863" />
       <item itemvalue="Application.Problem733" />
+      <item itemvalue="Application.Problem414" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem414" />
         <item itemvalue="Application.Problem733" />
         <item itemvalue="Application.Problem863" />
         <item itemvalue="Application.Problem402" />
         <item itemvalue="Application.Problem458" />
-        <item itemvalue="Application.Problem350" />
       </list>
     </recent_temporary>
   </component>
@@ -212,24 +221,45 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33489463" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33489463" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3290398" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.26814988" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8690909" visible="true" weight="0.2851038" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.87323946" visible="true" weight="0.2851038" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.5008" side_tool="true" weight="0.2820513" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3559719" />
-      <window_info id="Favorites" order="2" sideWeight="0.13090909" side_tool="true" visible="true" weight="0.2851038" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49063233" />
+      <window_info id="Favorites" order="2" sideWeight="0.12676056" side_tool="true" visible="true" weight="0.2851038" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26814988" />
+      <window_info id="Structure" order="1" sideWeight="0.5008" side_tool="true" weight="0.2820513" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290398" />
+      <window_info id="Favorites" order="2" sideWeight="0.13090909" side_tool="true" visible="true" weight="0.2851038" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3290398" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33489463" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3559719" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3266979" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8690909" visible="true" weight="0.2851038" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -245,17 +275,27 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem733.java</url>
-          <line>6</line>
+          <url>file://$PROJECT_DIR$/src/Problem414.java</url>
+          <line>18</line>
           <properties />
-          <option name="timeStamp" value="16" />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="20" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="secondStack.peek()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>secondStack.peek()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>stack.peek().val</expression-string>
         <language-id>JAVA</language-id>
@@ -264,13 +304,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Problem726.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="66" lean-forward="true" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem839.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -539,8 +572,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem733.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state relative-caret-position="488">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem414.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
