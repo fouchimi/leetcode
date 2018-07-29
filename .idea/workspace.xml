@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c837cd1-038a-480e-9449-604b55a18dda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Problem75.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem360.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem360.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,13 +40,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem75.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem75.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem75.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="135">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem131.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Problem131.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem360.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problem360.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <folding>
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/Problem186.java" />
         <option value="$PROJECT_DIR$/src/Problem543.java" />
         <option value="$PROJECT_DIR$/src/Problem75.java" />
+        <option value="$PROJECT_DIR$/src/Problem360.java" />
       </list>
     </option>
   </component>
@@ -128,6 +151,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -140,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem75">
+  <component name="RunManager" selected="Application.Problem360">
     <configuration name="Problem148" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem148" />
       <module name="leetcode" />
@@ -149,8 +177,8 @@
       <option name="MAIN_CLASS_NAME" value="Problem186" />
       <module name="leetcode" />
     </configuration>
-    <configuration name="Problem279" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem279" />
+    <configuration name="Problem360" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem360" />
       <module name="leetcode" />
     </configuration>
     <configuration name="Problem543" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -162,21 +190,24 @@
       <module name="leetcode" />
     </configuration>
     <list>
-      <item itemvalue="Application.Problem279" />
       <item itemvalue="Application.Problem148" />
       <item itemvalue="Application.Problem186" />
       <item itemvalue="Application.Problem543" />
       <item itemvalue="Application.Problem75" />
+      <item itemvalue="Application.Problem360" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem360" />
         <item itemvalue="Application.Problem75" />
         <item itemvalue="Application.Problem543" />
         <item itemvalue="Application.Problem186" />
         <item itemvalue="Application.Problem148" />
-        <item itemvalue="Application.Problem279" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS,SHOW_PROPERTIES,SHOW_INTERFACES,ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -201,29 +232,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="150" y="27" width="1440" height="799" extended-state="0" />
+    <frame x="141" y="54" width="1440" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290398" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3266979" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32621083" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33475783" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33475783" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3290398" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26780626" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21937323" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8599222" visible="true" weight="0.29613733" />
-      <window_info id="Structure" order="1" sideWeight="0.5008" side_tool="true" weight="0.2820513" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.83297646" visible="true" weight="0.29613733" />
+      <window_info id="Structure" order="1" sideWeight="0.16702355" side_tool="true" visible="true" weight="0.29613733" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35470086" />
-      <window_info id="Favorites" order="2" sideWeight="0.14007781" side_tool="true" visible="true" weight="0.29613733" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
+      <window_info id="Favorites" order="2" sideWeight="0.1541756" side_tool="true" weight="0.29613733" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -318,12 +349,19 @@
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Problem360.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="44" />
+      <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="x.val" language="JAVA" />
+        <watch expression="s.substring(k, i+1)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -357,12 +395,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Problem839.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problem121.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem494.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -683,10 +715,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem75.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="135">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem131.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem360.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
           </folding>
         </state>
       </provider>
