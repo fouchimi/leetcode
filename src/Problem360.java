@@ -3,21 +3,33 @@ public class Problem360 {
     public int[] sortTransformedArray(int[] nums, int a, int b, int c) {
 
         int[] result = new int[nums.length];
-        for(int i = 0; i < nums.length; i++) {
-            int prod = a * nums[i] * nums[i] + b * nums[i] + c;
-            result[i] = prod;
-            swim(result, i);
+        for(int i = 0; i < nums.length; i++)
+            nums[i] = a * nums[i] * nums[i] + b * nums[i] + c;
+
+        int i, d;
+        int p = 0, q = nums.length-1;
+        if(a < 0) {
+            i = p;
+            d = 1;
+        }else {
+            i = q;
+            d = -1;
+        }
+
+        while (p <= q) {
+            if(nums[p] * (-d) > nums[q] * (-d)) {
+                result[i] = nums[p];
+                p++;
+            }else {
+                result[i] = nums[q];
+                q--;
+            }
+            i += d;
         }
 
         for(int w : result) System.out.print(w + " ");
-        return result;
-    }
 
-    private void swim(int[] nums, int k){
-        while (k > 0 && less(nums, k, k/2)){
-            exch(nums, k, k/2);
-            k = k/2;
-        }
+        return result;
     }
 
     private boolean less(int[] nums, int p, int q) {
