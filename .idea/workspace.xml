@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c837cd1-038a-480e-9449-604b55a18dda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Problem380.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem832.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,17 +31,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem380.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem380.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem380.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+            <state relative-caret-position="650">
+              <caret line="81" column="54" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
               <folding>
                 <element signature="e#292#293#0" expanded="true" />
                 <element signature="e#330#331#0" expanded="true" />
                 <element signature="e#1918#1919#0" expanded="true" />
                 <element signature="e#1968#1969#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem832.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problem832.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -99,12 +108,13 @@
         <option value="$PROJECT_DIR$/src/Problem360.java" />
         <option value="$PROJECT_DIR$/src/DNode.java" />
         <option value="$PROJECT_DIR$/src/Problem380.java" />
+        <option value="$PROJECT_DIR$/src/Problem832.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="258" />
-    <option name="y" value="49" />
+    <option name="x" value="521" />
+    <option name="y" value="109" />
     <option name="width" value="1440" />
     <option name="height" value="799" />
   </component>
@@ -160,11 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem380">
-    <configuration name="Problem186" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem186" />
-      <module name="leetcode" />
-    </configuration>
+  <component name="RunManager" selected="Application.Problem832">
     <configuration name="Problem360" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem360" />
       <module name="leetcode" />
@@ -181,20 +187,24 @@
       <option name="MAIN_CLASS_NAME" value="Problem75" />
       <module name="leetcode" />
     </configuration>
+    <configuration name="Problem832" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem832" />
+      <module name="leetcode" />
+    </configuration>
     <list>
-      <item itemvalue="Application.Problem186" />
       <item itemvalue="Application.Problem543" />
       <item itemvalue="Application.Problem75" />
       <item itemvalue="Application.Problem360" />
       <item itemvalue="Application.Problem380" />
+      <item itemvalue="Application.Problem832" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem832" />
         <item itemvalue="Application.Problem380" />
         <item itemvalue="Application.Problem360" />
         <item itemvalue="Application.Problem75" />
         <item itemvalue="Application.Problem543" />
-        <item itemvalue="Application.Problem186" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +234,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="258" y="49" width="1440" height="799" extended-state="0" />
+    <frame x="564" y="125" width="1440" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -359,8 +369,14 @@
           <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Problem832.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="51" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -408,9 +424,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Problem491.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem383.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -746,27 +759,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#110#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DNode.java" />
     <entry file="file://$PROJECT_DIR$/src/Problem380.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+        <state relative-caret-position="650">
+          <caret line="81" column="54" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
           <folding>
             <element signature="e#292#293#0" expanded="true" />
             <element signature="e#330#331#0" expanded="true" />
             <element signature="e#1918#1919#0" expanded="true" />
             <element signature="e#1968#1969#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem832.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
         </state>
       </provider>
     </entry>
