@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c837cd1-038a-480e-9449-604b55a18dda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Problem832.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem657.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,11 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem832.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem832.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem832.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="150">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem657.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problem657.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -109,12 +117,13 @@
         <option value="$PROJECT_DIR$/src/DNode.java" />
         <option value="$PROJECT_DIR$/src/Problem380.java" />
         <option value="$PROJECT_DIR$/src/Problem832.java" />
+        <option value="$PROJECT_DIR$/src/Problem657.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="521" />
-    <option name="y" value="109" />
+    <option name="x" value="783" />
+    <option name="y" value="111" />
     <option name="width" value="1440" />
     <option name="height" value="799" />
   </component>
@@ -170,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem832">
+  <component name="RunManager" selected="Application.Problem657">
     <configuration name="Problem360" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem360" />
       <module name="leetcode" />
@@ -179,8 +188,8 @@
       <option name="MAIN_CLASS_NAME" value="Problem380" />
       <module name="leetcode" />
     </configuration>
-    <configuration name="Problem543" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem543" />
+    <configuration name="Problem657" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem657" />
       <module name="leetcode" />
     </configuration>
     <configuration name="Problem75" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -192,19 +201,19 @@
       <module name="leetcode" />
     </configuration>
     <list>
-      <item itemvalue="Application.Problem543" />
       <item itemvalue="Application.Problem75" />
       <item itemvalue="Application.Problem360" />
       <item itemvalue="Application.Problem380" />
       <item itemvalue="Application.Problem832" />
+      <item itemvalue="Application.Problem657" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem657" />
         <item itemvalue="Application.Problem832" />
         <item itemvalue="Application.Problem380" />
         <item itemvalue="Application.Problem360" />
         <item itemvalue="Application.Problem75" />
-        <item itemvalue="Application.Problem543" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +243,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="564" y="125" width="1440" height="799" extended-state="0" />
+    <frame x="783" y="111" width="1440" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -247,15 +256,15 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33475783" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3290398" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21937323" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21937323" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7821229" visible="true" weight="0.19384836" />
-      <window_info id="Structure" order="1" sideWeight="0.21787709" side_tool="true" visible="true" weight="0.19384836" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8576642" visible="true" weight="0.19384836" />
+      <window_info id="Structure" order="1" sideWeight="0.14233577" side_tool="true" visible="true" weight="0.19384836" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4900285" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4900285" />
       <window_info id="Favorites" order="2" sideWeight="0.1541756" side_tool="true" weight="0.29613733" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="2" />
@@ -424,13 +433,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Problem383.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="112" selection-start-line="23" selection-start-column="112" selection-end-line="23" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem374.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -775,8 +777,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem832.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="150">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem657.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
         </state>
       </provider>
     </entry>
