@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c837cd1-038a-480e-9449-604b55a18dda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Problem405.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem408.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,22 +28,22 @@
     <session id="418879324">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="37372" />
+          <entry key="java" value="38096" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="37372" />
+          <entry key="JAVA" value="38096" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="39" />
+          <entry key="java" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="39" />
+          <entry key="JAVA" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -70,15 +70,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem346.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem338.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -148,11 +139,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem405.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problem408.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -447,6 +447,7 @@
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/Problem430.java" />
         <option value="$PROJECT_DIR$/src/Problem405.java" />
+        <option value="$PROJECT_DIR$/src/Problem408.java" />
       </list>
     </option>
   </component>
@@ -485,7 +486,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545185548569" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545190988109" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -504,7 +505,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem405">
+  <component name="RunManager" selected="Application.Problem408">
     <configuration name="Problem405" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem405" />
       <module name="leetcode" />
@@ -512,8 +513,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem418" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem418" />
+    <configuration name="Problem408" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem408" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -541,19 +542,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Problem418" />
       <item itemvalue="Application.Problem445" />
       <item itemvalue="Application.Problem426" />
       <item itemvalue="Application.Problem430" />
       <item itemvalue="Application.Problem405" />
+      <item itemvalue="Application.Problem408" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem408" />
         <item itemvalue="Application.Problem405" />
         <item itemvalue="Application.Problem430" />
         <item itemvalue="Application.Problem426" />
         <item itemvalue="Application.Problem445" />
-        <item itemvalue="Application.Problem418" />
       </list>
     </recent_temporary>
   </component>
@@ -583,7 +584,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.86545455" visible="true" weight="0.2014652" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86545455" visible="true" weight="0.2014652" />
       <window_info id="Structure" order="1" sideWeight="0.5008" side_tool="true" weight="0.2820513" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -592,12 +593,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.13454546" side_tool="true" weight="0.2918193" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28738317" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.31425235" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2867347" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3132653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290398" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.41004673" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40918368" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3290398" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32476637" />
@@ -746,20 +747,39 @@
           <properties />
           <option name="timeStamp" value="116" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Problem408.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Problem408.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="s.substring(1, 11)" language="JAVA" />
-        <watch expression="s.length()" language="JAVA" />
-        <watch expression="buf[i]" language="JAVA" />
-        <watch expression="str.length()" language="JAVA" />
-        <watch expression="sb.toString()" language="JAVA" />
+        <watch expression="abbr.charAt(i)" language="JAVA" />
+        <watch expression="word.charAt(j)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>word.charAt(j)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>abbr.charAt(i)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>sb.toString()</expression-string>
         <language-id>JAVA</language-id>
@@ -800,26 +820,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>s.substring(0, i)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>secondStack.peek()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem402.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1178,8 +1181,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem405.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem408.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
