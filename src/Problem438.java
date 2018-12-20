@@ -2,43 +2,44 @@ import java.util.*;
 
 public class Problem438 {
 
-    public List<Integer> findAnagrams(String s, String p) {
-        List<Integer> list = new ArrayList<>();
-        int length = p.length();
-        Map<Character, Integer> pMap = new HashMap<>();
-        for(int i = 0; i < p.length(); i++) {
-            char ch = p.charAt(i);
-            if(!pMap.containsKey(ch)) pMap.put(ch, 1);
-            else pMap.put(ch, pMap.get(ch)+1);
+    public List<Integer> findAnagrams(String s, String t) {
+        List<Integer> result = new LinkedList<>();
+        if(t.length()> s.length()) return result;
+        Map<Character, Integer> map = new HashMap<>();
+        for(char c : t.toCharArray()){
+            map.put(c, map.getOrDefault(c, 0) + 1);
         }
-        for(int i = 0; i + length <= s.length(); i++) {
-            String newStr = s.substring(i, i+length);
-            Map<Character, Integer> map = getMap(newStr);
-            if(map.size() == pMap.size() && pMap.size() == 1 && newStr.equals(p)) list.add(i);
-            else if((pMap.size() == 1 && map.size() == 1 && !newStr.equals(p)) || (pMap.size() != map.size())) continue;
-            else {
-                boolean flag = false;
-                for (Map.Entry<Character, Integer> entry : map.entrySet()) {
-                    char ch = entry.getKey();
-                    if (!pMap.containsKey(ch) || (pMap.containsKey(ch) && !pMap.get(ch).equals(entry.getValue()))) {
-                        flag = true;
-                        break;
+        int counter = map.size();
+
+        int begin = 0, end = 0;
+        int head = 0;
+        int len = Integer.MAX_VALUE;
+
+
+        while(end < s.length()){
+            char c = s.charAt(end);
+            if( map.containsKey(c) ){
+                map.put(c, map.get(c)-1);
+                if(map.get(c) == 0) counter--;
+            }
+            end++;
+
+            while(counter == 0){
+                char tempc = s.charAt(begin);
+                if(map.containsKey(tempc)){
+                    map.put(tempc, map.get(tempc) + 1);
+                    if(map.get(tempc) > 0){
+                        counter++;
                     }
                 }
-                if (!flag) list.add(i);
+                if(end-begin == t.length()){
+                    result.add(begin);
+                }
+                begin++;
             }
-        }
-        return list;
-    }
 
-    private Map<Character, Integer> getMap(String str) {
-        Map<Character, Integer> map = new HashMap<>();
-        for(int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);
-            if(!map.containsKey(ch)) map.put(ch, 1);
-            else map.put(ch, map.get(ch)+1);
         }
-        return map;
+        return result;
     }
 
     public static void main(String[] args) {
