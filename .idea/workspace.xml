@@ -403,7 +403,6 @@
         <option value="$PROJECT_DIR$/src/Problem437.java" />
         <option value="$PROJECT_DIR$/src/Problem276.java" />
         <option value="$PROJECT_DIR$/src/Problem247.java" />
-        <option value="$PROJECT_DIR$/src/Problem253.java" />
         <option value="$PROJECT_DIR$/src/Problem255.java" />
         <option value="$PROJECT_DIR$/src/Problem707.java" />
       </list>
@@ -485,8 +484,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem276" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem276" />
+    <configuration name="Problem256" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem256" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -551,8 +550,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.13454546" side_tool="true" weight="0.2918193" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2863454" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3128514" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2857143" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" visible="true" weight="0.3122449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290398" />
@@ -1174,14 +1173,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problem445.java">
+    <entry file="file://$PROJECT_DIR$/src/Problem255.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="105">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problem255.java">
+    <entry file="file://$PROJECT_DIR$/src/Problem253.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
