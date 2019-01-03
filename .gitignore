@@ -12,6 +12,9 @@
 .war
 .ear
 
+# xml auto-generated
+.xml
+
 # Virtual machine crash logs, see
 http://www.java/en/download/help/error.hotspot.xml
 hs_err_pid*
