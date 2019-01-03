@@ -13,7 +13,7 @@
 .ear
 
 # xml auto-generated
-.xml
+.idea/workspace.xml
 
 # Virtual machine crash logs, see
 http://www.java/en/download/help/error.hotspot.xml
