@@ -521,7 +521,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="3600" y="-773" width="1440" height="2560" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86545455" visible="true" weight="0.3003663" />
@@ -719,7 +719,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Problem371.java</url>
-          <line>16</line>
+          <line>17</line>
           <properties />
           <option name="timeStamp" value="135" />
         </line-breakpoint>
