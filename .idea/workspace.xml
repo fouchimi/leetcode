@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c837cd1-038a-480e-9449-604b55a18dda" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Problem261.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem261.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem261.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -29,12 +29,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="56" />
-          <entry key="java" value="57487" />
+          <entry key="java" value="58057" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="57487" />
+          <entry key="JAVA" value="58057" />
           <entry key="PLAIN_TEXT" value="56" />
         </counts>
       </usages-collector>
@@ -52,7 +52,7 @@
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="2" />
@@ -65,9 +65,9 @@
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -138,8 +138,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Problem261.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="365">
+              <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -430,11 +433,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="32" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="478" />
+    <option name="y" value="122" />
     <option name="width" value="1440" />
-    <option name="height" value="953" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -444,7 +447,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -461,11 +464,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547257083833" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547442533820" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -560,9 +563,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="478" y="122" width="1440" height="948" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86545455" visible="true" weight="0.1978022" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86545455" visible="true" weight="0.23462088" />
       <window_info id="Structure" order="1" sideWeight="0.5008" side_tool="true" weight="0.2820513" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -571,12 +575,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.13454546" side_tool="true" weight="0.2918193" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28367347" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" visible="true" weight="0.3102041" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28271028" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" visible="true" weight="0.34345794" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290398" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31428573" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31308413" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3290398" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3244898" />
@@ -799,69 +803,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Problem261.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="211" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem261.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="212" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem261.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="213" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem261.java</url>
           <line>48</line>
-          <properties />
-          <option name="timeStamp" value="214" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem261.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="215" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem261.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="216" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem261.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="217" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem261.java</url>
-          <line>60</line>
           <properties />
           <option name="timeStamp" value="218" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Problem261.java</url>
-          <line>31</line>
+          <line>42</line>
           <properties />
-          <option name="timeStamp" value="219" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem261.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="222" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem261.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="223" />
+          <option name="timeStamp" value="233" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1266,8 +1216,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem261.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="365">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
