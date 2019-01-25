@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fad1ba6-f17d-42e4-8433-e64d2b8c60be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Problem134.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem210.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,19 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem532.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-              <folding>
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem557.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,14 +89,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem134.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="150">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problem210.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -152,12 +148,13 @@
         <option value="$PROJECT_DIR$/src/Problem509.java" />
         <option value="$PROJECT_DIR$/src/Problem232.java" />
         <option value="$PROJECT_DIR$/src/Problem134.java" />
+        <option value="$PROJECT_DIR$/src/Problem210.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1803" />
-    <option name="y" value="109" />
+    <option name="y" value="108" />
     <option name="width" value="1680" />
     <option name="height" value="948" />
   </component>
@@ -190,7 +187,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548441260902" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548451412036" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,9 +201,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem134">
+  <component name="RunManager" selected="Application.Problem210">
     <configuration name="Problem134" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem134" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem210" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem210" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -233,20 +237,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem561" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem561" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem210" />
         <item itemvalue="Application.Problem134" />
         <item itemvalue="Application.Problem232" />
         <item itemvalue="Application.Problem509" />
         <item itemvalue="Application.Problem556" />
-        <item itemvalue="Application.Problem561" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +261,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1803" y="109" width="1680" height="948" extended-state="0" />
+    <frame x="1803" y="108" width="1680" height="948" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15689866" />
@@ -282,7 +279,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32943925" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.40654206" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.31425235" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32943925" />
@@ -343,46 +340,64 @@
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem134.java</url>
-          <line>13</line>
+          <url>file://$PROJECT_DIR$/src/Problem210.java</url>
+          <line>48</line>
           <properties />
-          <option name="timeStamp" value="58" />
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem134.java</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/src/Problem210.java</url>
+          <line>50</line>
           <properties />
-          <option name="timeStamp" value="59" />
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem134.java</url>
-          <line>18</line>
+          <url>file://$PROJECT_DIR$/src/Problem210.java</url>
+          <line>12</line>
           <properties />
-          <option name="timeStamp" value="60" />
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem134.java</url>
-          <line>19</line>
+          <url>file://$PROJECT_DIR$/src/Problem210.java</url>
+          <line>14</line>
           <properties />
-          <option name="timeStamp" value="61" />
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem134.java</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/src/Problem210.java</url>
+          <line>22</line>
           <properties />
-          <option name="timeStamp" value="62" />
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem134.java</url>
+          <url>file://$PROJECT_DIR$/src/Problem210.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Problem210.java</url>
           <line>31</line>
           <properties />
-          <option name="timeStamp" value="63" />
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem134.java</url>
-          <line>30</line>
+          <url>file://$PROJECT_DIR$/src/Problem210.java</url>
+          <line>38</line>
           <properties />
-          <option name="timeStamp" value="64" />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Problem210.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Problem210.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -495,11 +510,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem134.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="150">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem210.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
         </state>
       </provider>
     </entry>
