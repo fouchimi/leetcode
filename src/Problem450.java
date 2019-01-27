@@ -20,7 +20,7 @@ public class Problem450 {
 
     private TreeNode findMin(TreeNode x) {
         if(x.left == null) return x;
-        x = finMin(x.left);
+        x = findMin(x.left);
         return x;
     }
 
