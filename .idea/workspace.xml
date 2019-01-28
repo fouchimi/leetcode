@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fad1ba6-f17d-42e4-8433-e64d2b8c60be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Problem703.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem96.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,15 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem905.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem561.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,9 +98,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem703.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problem96.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -155,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/Problem450.java" />
         <option value="$PROJECT_DIR$/src/Problem729.java" />
         <option value="$PROJECT_DIR$/src/Problem703.java" />
+        <option value="$PROJECT_DIR$/src/Problem96.java" />
       </list>
     </option>
   </component>
@@ -192,7 +197,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548639495711" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548642079202" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,14 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem703">
-    <configuration name="Problem210" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem210" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Problem96">
     <configuration name="Problem450" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem450" />
       <module name="leetcode" />
@@ -242,13 +240,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem96" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem96" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem96" />
         <item itemvalue="Application.Problem703" />
         <item itemvalue="Application.Problem729" />
         <item itemvalue="Application.Problem450" />
         <item itemvalue="Application.Problem929" />
-        <item itemvalue="Application.Problem210" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +272,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13980465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -363,16 +367,22 @@
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem703.java</url>
-          <line>15</line>
+          <url>file://$PROJECT_DIR$/src/Problem96.java</url>
+          <line>7</line>
           <properties />
-          <option name="timeStamp" value="98" />
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Problem703.java</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/src/Problem96.java</url>
+          <line>15</line>
           <properties />
-          <option name="timeStamp" value="100" />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Problem96.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="103" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -527,7 +537,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem703.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem96.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
