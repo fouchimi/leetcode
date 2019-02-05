@@ -2,18 +2,19 @@ public class Problem371 {
 
     public int getSum(int a, int b) {
 
-        return helper(a, 2)  + helper(b, 2);
+        while (b != 0) {
+            int carry = a & b;
+            a = a ^ b;
+            b = carry << 1;
+        }
+        return a;
     }
 
-    private int helper(int val, int num) {
-        if(val == 0 || val == 1) return val;
-        if(val%2 == 0) return num + helper(val/2, num);
-        return 1 + num + helper(val/2, num);
-    }
 
     public static void main(String[] args) {
         Problem371 problem371 = new Problem371();
         System.out.println(problem371.getSum(1, 10));
+        System.out.println(problem371.getSum(2, 3));
     }
 
 }
