@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9defc417-6415-4e13-80db-73d20098e651" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Problem137.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem137.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem137.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -44,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problem137.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -74,8 +82,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Problem137.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="886" />
+    <option name="x" value="570" />
     <option name="y" value="93" />
     <option name="width" value="1234" />
     <option name="height" value="877" />
@@ -109,7 +124,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549342590262" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549343201678" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -123,9 +138,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem322">
-    <configuration name="Problem247" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem247" />
+  <component name="RunManager" selected="Application.Problem137">
+    <configuration name="Problem137" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem137" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,19 +175,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Problem247" />
       <item itemvalue="Application.Problem253" />
       <item itemvalue="Application.Problem255" />
       <item itemvalue="Application.Problem707" />
       <item itemvalue="Application.Problem322" />
+      <item itemvalue="Application.Problem137" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem137" />
         <item itemvalue="Application.Problem322" />
         <item itemvalue="Application.Problem707" />
         <item itemvalue="Application.Problem255" />
         <item itemvalue="Application.Problem253" />
-        <item itemvalue="Application.Problem247" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +205,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="886" y="93" width="1234" height="877" extended-state="0" />
+    <frame x="570" y="93" width="1234" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86545455" visible="true" weight="0.17365772" />
       <window_info id="Structure" order="1" sideWeight="0.5008" side_tool="true" weight="0.2820513" />
@@ -229,6 +245,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem137.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
         </state>
       </provider>
     </entry>

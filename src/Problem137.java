@@ -36,5 +36,6 @@ public class Problem137 {
         int[] nums = {43,16,45,89,45,-2147483648,45,2147483646,-2147483647,-2147483648,43,2147483647,
                 -2147483646,-2147483648,89,-2147483646,89,-2147483646,-2147483647,2147483646,-2147483647,16,16,2147483646,43};
         System.out.println(problem137.singleNumber(nums));
+        System.out.println(problem137.singleNumberImproved(nums));
     }
 }
