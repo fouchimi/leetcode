@@ -48,3 +48,4 @@ public class Problem4 {
         System.out.println(problem4.findMedianSortedArrays(nums1, nums2));
     }
 }
+

@@ -8,9 +8,12 @@
 .mtj.tmp/
 
 # Package Files #
-.jar
+.jar551
 .war
 .ear
+
+# xml auto-generated
+.idea/workspace.xml
 
 # Virtual machine crash logs, see
 http://www.java/en/download/help/error.hotspot.xml
