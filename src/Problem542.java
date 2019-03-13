@@ -1,41 +1,37 @@
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Problem542 {
     public int[][] updateMatrix(int[][] matrix) {
-        int rows = matrix.length;
-        int cols = matrix[0].length;
-        int[][] res = new int[rows][cols];
-        for(int i = 0; i < rows; i++) {
-            for(int j = 0; j < cols; j++) {
-                if(matrix[i][j] == 1) {
-                    boolean[][] visited = new boolean[rows][cols];
-                    res[i][j] = dfs(matrix, i, j, visited);
+        int m = matrix.length;
+        int n = matrix[0].length;
+
+        Queue<int[]> queue = new LinkedList<>();
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] == 0) {
+                    queue.offer(new int[] {i, j});
+                }
+                else {
+                    matrix[i][j] = Integer.MAX_VALUE;
                 }
             }
         }
-        return res;
-    }
 
-    private boolean isValid(int[][] matrix, int row, int col, boolean[][] visited) {
-        if(row < 0 || col < 0 || row > matrix.length-1  || col > matrix[0].length-1 || visited[row][col]) return false;
-        return true;
-    }
+        int[][] dirs = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
-    private int dfs(int[][] matrix, int row, int col, boolean[][] visited) {
-        if(matrix[row][col] == 0) return 0;
-        visited[row][col] = true;
-        int top = 0, left = 0, right = 0, bottom = 0, min = Integer.MAX_VALUE;
-        if(isValid(matrix, row-1, col, visited)) top += dfs(matrix, row-1, col, visited) + 1;
-        if(isValid(matrix, row, col-1, visited)) left += dfs(matrix, row, col-1, visited) + 1;
-        if(isValid(matrix, row, col+1, visited)) right += dfs(matrix, row, col+1, visited) + 1;
-        if(isValid(matrix, row+1, col, visited)) bottom += dfs(matrix, row+1, col, visited) + 1;
+        while (!queue.isEmpty()) {
+            int[] cell = queue.poll();
+            for (int[] d : dirs) {
+                int r = cell[0] + d[0];
+                int c = cell[1] + d[1];
+                if (r < 0 || r >= m || c < 0 || c >= n || matrix[r][c] <= matrix[cell[0]][cell[1]] + 1) continue;
+                queue.add(new int[] {r, c});
+                matrix[r][c] = matrix[cell[0]][cell[1]] + 1;
+            }
+        }
 
-        visited[row][col] = false;
-
-        if(top > 0) min = Math.min(min, top);
-        if(left > 0) min = Math.min(min, left);
-        if(right > 0) min = Math.min(min, right);
-        if(bottom > 0) min = Math.min(min, bottom);
-        return min;
+        return matrix;
     }
 
 
