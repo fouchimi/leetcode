@@ -17,7 +17,7 @@ public class Problem133 {
         Map<Node, Node> nodeMap = new HashMap<>();
         Deque<Node> nodeDeque = new ArrayDeque<>();
         nodeDeque.add(node);
-        nodeMap.put(node, new ArrayList<>());
+        nodeMap.put(node, new Node(node.val, new ArrayList<>()));
         while (!nodeDeque.isEmpty()) {
             Node currentNode = nodeDeque.poll();
             for(Node neighbor : currentNode.neighbors) {
