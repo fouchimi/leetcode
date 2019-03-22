@@ -12,8 +12,14 @@
 .war
 .ear
 
+# Un-necessary xml files
+.xml
+
 # xml auto-generated
 .idea/workspace.xml
+.idea/leetcode.iml
+.idea/modules.xml
+.idea/modules/src.iml
 
 # Virtual machine crash logs, see
 http://www.java/en/download/help/error.hotspot.xml
