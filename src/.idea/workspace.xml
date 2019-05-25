@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bd18c76-326b-4761-b081-7f6324fa410b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problem665.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/META-INF/src.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -54,11 +55,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problem665.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problem6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -85,12 +91,13 @@
         <option value="$PROJECT_DIR$/Problem490.java" />
         <option value="$PROJECT_DIR$/Problem824.java" />
         <option value="$PROJECT_DIR$/Problem665.java" />
+        <option value="$PROJECT_DIR$/Problem6.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -134,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem665">
+  <component name="RunManager" selected="Application.Problem6">
     <configuration name="Mock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mock" />
       <module name="src" />
@@ -149,8 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem538" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem538" />
+    <configuration name="Problem6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem6" />
       <module name="src" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem6" />
         <item itemvalue="Application.Problem665" />
         <item itemvalue="Application.Problem824" />
         <item itemvalue="Application.Problem490" />
         <item itemvalue="Application.Mock" />
-        <item itemvalue="Application.Problem538" />
       </list>
     </recent_temporary>
   </component>
@@ -194,10 +201,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10866911" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09850905" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -206,14 +212,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905483" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31734693" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31734693" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34950495" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32857144" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32772276" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32905483" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
@@ -275,10 +281,10 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Problem665.java</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/Problem6.java</url>
+          <line>28</line>
           <properties />
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -305,6 +311,14 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Test.java" />
+    <entry file="file://$PROJECT_DIR$/Mock.java" />
+    <entry file="file://$PROJECT_DIR$/Problem490.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Problem60.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -322,14 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mock.java" />
-    <entry file="file://$PROJECT_DIR$/Problem490.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Problem824.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -338,9 +344,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Problem665.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
